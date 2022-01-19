@@ -6,8 +6,8 @@ div.arriba{
 nav a {
     text-decoration:none;
     color:inherit;
-    font-size:14px;
-    font-family:"Carton Six",sans-serif;
+    font-size:25px;
+    font-family:Redressed;
 
 }
 
@@ -23,7 +23,7 @@ nav li{
     text-align:center;
     color:black;
     position:relative;
-    font-family:"Carton Six",sans-serif;
+    font-family:Redressed;
 }
 
 nav li:hover{
@@ -32,18 +32,50 @@ nav li:hover{
     }
 
 div.medio{
-    font-size:20px;
-    text-align: center;
+    font-size:35px;
+    text-align: left;
+    color: white;
+    padding-left: 450px;
 
 }
+
+div.medio1{
+    font-size:35px;
+    text-align: left;
+    color: white;
+    padding-left: 50px;
+
+}
+
 
 p{
     font-family:Redressed;
 }
 
 @font-face {
-    font-family: 'Redressed ';
+    font-family:Redressed;
     src: url('Redressed.ttf') format("truetype");
     font-weight: normal;
     font-style: normal;
  }
+
+ h1{
+    font-family:Redressed;
+    font-size: 68px;
+    color: white;
+    padding-left: 600px;
+
+    
+ }
+
+ div.foto{
+    text-align: center;
+    border-radius: 20px;
+}
+
+img.foto1{
+    font-size: 68px;
+    border-radius: 50px;
+    margin-left: 580px;
+
+}
