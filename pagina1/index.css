@@ -33,21 +33,19 @@ nav li:hover{
     }
 
 div.medio{
-    font-size:35px;
+    font-size:32px;
     text-align: left;
     color: white;
-    padding-left: 450px;
+    padding-left: 510px;
 
 }
-
 div.medio1{
-    font-size:35px;
+    font-size:32px;
     text-align: left;
     color: white;
-    padding-left: 50px;
+    padding-left: 420px;
 
 }
-
 
 p{
     font-family:Redressed;
@@ -71,12 +69,11 @@ p{
 
  div.foto{
     text-align: center;
-    border-radius: 20px;
 }
 
 img.foto1{
     font-size: 68px;
     border-radius: 50px;
-    margin-left: 580px;
+    margin-left: 650px;
 
 }
