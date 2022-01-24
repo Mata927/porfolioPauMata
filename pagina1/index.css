@@ -64,7 +64,6 @@ p{
     color: white;
     padding-left: 600px;
 
-    
  }
 
  div.foto{
@@ -76,4 +75,13 @@ img.foto1{
     border-radius: 50px;
     margin-left: 650px;
 
+}
+
+div.titulo{
+    text-align: left;
+    width: 200px;
+    height: 0px;
+}
+div.titulo1{
+    text-align: right;
 }
