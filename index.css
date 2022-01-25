@@ -1,15 +1,12 @@
 div.arriba{
     background-color: #9A8AFF;
-    padding-top: 30px;
-    
-    
+    padding-top: 30px; 
 }
 nav a {
     text-decoration:none;
     color:inherit;
     font-size:25px;
     font-family:Redressed;
-
 }
 
 body{
@@ -26,7 +23,6 @@ nav li{
     position:relative;
     font-family:Redressed;
 }
-
 nav li:hover{
     background-color:#fff;
     color:blue;
