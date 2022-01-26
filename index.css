@@ -55,7 +55,7 @@ p{
     font-family:Redressed;
     font-size: 68px;
     color: white;
-    padding-left: 600px;
+    text-align: center;
 
  }
 
@@ -83,4 +83,14 @@ table{
     padding-left: 40px;
     padding-top: 25px;
 }
+
+div.medio2{
+    padding-left: 320px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 350px;
+    margin-right: 350px;
+    height: 900px;
+  }
+   
 
