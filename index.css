@@ -110,6 +110,71 @@ div.medio2{
     width: 400px;
     height: 200px;
   }
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color:#7D8F97 ;   
+    }
+
+    div.medio {
+        padding-left: 180px;
+      }
+
+      div.medio1{
+        padding-left: 180px;
+    
+    }
+
+      p{
+        font-size:25px;
+       
+    }
+    nav a {
+        font-size:20px;
+    }
+
+    nav li {
+        padding: 10px;
+    }
+
+    img.foto1{
+        margin-left: 300px;
+        width: 150px;
+        height: 200px;
+    
+    }
+    h1 {
+        font-size: 40px;
+      }
+
+      img.foto {
+        width: 280px;
+        height: 150px;
+        margin-left: 300px;
+      }
+    img.foto3{
+    width: 280px;
+    height: 150px;
+    margin-left: 250px;
+  }
+
+img.fotos{
+    width: 60px;
+    height: 60px;
+  }
+  div.medio2{
+    border-color: black;
+    border-style: solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 750px;
+  }
+  input.consulta{
+    width: 240px;
+    height: 200px;
+  }
+
+}
 @media only screen and (max-width: 320px) {
     body{
         background-color:#7D8F97 ;   
@@ -168,70 +233,6 @@ img.fotos{
     margin-left: 20px;
     margin-right: 20px;
     height: 650px;
-  }
-  input.consulta{
-    width: 240px;
-    height: 200px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-    body{
-        background-color:#7D8F97 ;   
-    }
-
-    div.medio {
-        padding-left: 180px;
-      }
-
-      div.medio1{
-        padding-left: 180px;
-    
-    }
-
-      p{
-        font-size:25px;
-       
-    }
-    nav a {
-        font-size:20px;
-    }
-
-    nav li {
-        padding: 10px;
-    }
-
-    img.foto1{
-        margin-left: 300px;
-        width: 150px;
-        height: 200px;
-    
-    }
-    h1 {
-        font-size: 40px;
-      }
-
-      img.foto {
-        width: 280px;
-        height: 150px;
-        margin-left: 300px;
-      }
-    img.foto3{
-    width: 280px;
-    height: 150px;
-    margin-left: 250px;
-  }
-
-img.fotos{
-    width: 60px;
-    height: 60px;
-  }
-  div.medio2{
-    border-color: black;
-    border-style: solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 750px;
   }
   input.consulta{
     width: 240px;
