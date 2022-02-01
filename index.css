@@ -59,14 +59,24 @@ p{
 
  }
 
- div.foto{
-    text-align: center;
+ img.foto{
+    width:350px;
+    height:250px;
+    margin-left: 250px;
 }
+img.foto3{
+   
+    width:350px;
+    height:250px;
+    margin-left: 550px;
 
+}
 img.foto1{
-    font-size: 68px;
     border-radius: 50px;
     margin-left: 650px;
+    width: 200px;
+    height: 250px;
+    
 
 }
 
@@ -92,5 +102,139 @@ div.medio2{
     margin-right: 350px;
     height: 900px;
   }
-   
+  img.fotos{
+    width: 100px;
+    height: 100px;
+  }
+  input.consulta{
+    width: 400px;
+    height: 200px;
+  }
+@media only screen and (max-width: 320px) {
+    body{
+        background-color:#7D8F97 ;   
+    }
 
+    div.medio {
+        padding-left: 40px;
+      }
+
+      div.medio1{
+        padding-left: 10px;
+    
+    }
+
+      p{
+        font-size:18px;
+       
+    }
+    nav a {
+        font-size:10px;
+    }
+
+    nav li {
+        padding: 5px;
+    }
+
+    img.foto1{
+        margin-left: 65px;
+        width: 150px;
+        height: 200px;
+    
+    }
+    h1 {
+        font-size: 40px;
+      }
+
+      img.foto {
+        width: 280px;
+        height: 150px;
+        margin-left: 20px;
+      }
+img.foto3{
+    width: 280px;
+    height: 150px;
+    margin-left: 20px;
+  }
+
+img.fotos{
+    width: 60px;
+    height: 60px;
+  }
+  div.medio2{
+    padding-left: 20px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 650px;
+  }
+  input.consulta{
+    width: 240px;
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        background-color:#7D8F97 ;   
+    }
+
+    div.medio {
+        padding-left: 180px;
+      }
+
+      div.medio1{
+        padding-left: 180px;
+    
+    }
+
+      p{
+        font-size:25px;
+       
+    }
+    nav a {
+        font-size:20px;
+    }
+
+    nav li {
+        padding: 10px;
+    }
+
+    img.foto1{
+        margin-left: 300px;
+        width: 150px;
+        height: 200px;
+    
+    }
+    h1 {
+        font-size: 40px;
+      }
+
+      img.foto {
+        width: 280px;
+        height: 150px;
+        margin-left: 300px;
+      }
+    img.foto3{
+    width: 280px;
+    height: 150px;
+    margin-left: 250px;
+  }
+
+img.fotos{
+    width: 60px;
+    height: 60px;
+  }
+  div.medio2{
+    border-color: black;
+    border-style: solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 750px;
+  }
+  input.consulta{
+    width: 240px;
+    height: 200px;
+  }
+}
